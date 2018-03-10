@@ -33,8 +33,7 @@ public class Order implements Serializable{
 	private String buyerMessage;//买家留言
 	private String buyerNick;//买家昵称
 	private Integer buyerRate;//买家是否评价
-	private Date createTime;
-	private Date updateTime;
+	
 	//下面两个属性是表之间的依赖关系引入的
 	//1对多
 	@Transient//忽略该字段进行映射(通用mapper的注解)
