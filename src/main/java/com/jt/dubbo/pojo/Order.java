@@ -144,18 +144,7 @@ public class Order implements Serializable{
 	public void setBuyerRate(Integer buyerRate) {
 		this.buyerRate = buyerRate;
 	}
-	public Date getCreateTime() {
-		return createTime;
-	}
-	public void setCreateTime(Date createTime) {
-		this.createTime = createTime;
-	}
-	public Date getUpdateTime() {
-		return updateTime;
-	}
-	public void setUpdateTime(Date updateTime) {
-		this.updateTime = updateTime;
-	}
+	
 	
 	
 }
